@@ -11,6 +11,23 @@ Created by Claude Code.
 - **Camera System** - WASD movement with mouse-look camera controls
 - **Efficient Rendering** - Direct GPU buffer access with Metal 4's unified command encoders
 
+## Prompts
+
+This is a Claude Code project, and took a few prompts to get right. The key was starting with instructions to read and understand the Metal 4 API:
+
+```
+Read the https://developer.apple.com/documentation/metal/understanding-the-metal-4-core-api and produce a CLAUDE.md that includes instructions and best 
+practices for building an app using Metal.
+```
+
+Then:
+
+```
+The MetalCity project is a Metal 4 macOS project.  Create a 3D procedural small town generator, with camera controls I can use to explore the down. Use Metal 4 best practices (look things up if you need to).
+```
+
+This produced something that mostly worked, but the geometry winding was incorrect (buildings were inside out) and the camera started inside a building.  I prompted it to fix that, and this project is the result.
+
 ## Screenshot
 
 ![MetalCity Screenshot](screenshot.png)
