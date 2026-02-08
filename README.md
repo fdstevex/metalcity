@@ -55,4 +55,3 @@ Open `MetalCity.xcodeproj` in Xcode and build for macOS. The project requires no
 ## License
 
 This is a sample project for learning purposes.
-# metalcity
