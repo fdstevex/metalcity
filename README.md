@@ -23,6 +23,8 @@ Then:
 
 This produced something that mostly worked, but the geometry winding was incorrect (buildings were inside out) and the camera started inside a building.  I prompted it to fix that, and this project is the result.
 
+When I had it all working, I asked it to update the CLAUDE.md again with what it learned along the way.
+
 ## Screenshot
 
 ![MetalCity Screenshot](screenshot.png)
